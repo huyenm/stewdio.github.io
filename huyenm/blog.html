@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=deivece-width, initial-scale=1.0"/>
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/homepage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7b042f927.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="homepage.html"><img src="img/logo2 (2).png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="homepage.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="service.html">services</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1><b>Our Blog</b></h1>
+         </section>  
+    
+         <!-----blog page content-->
+
+         <section class="blog-content">
+             <div class="row">
+                 <div class="blog-left">
+                    <img src="img/smartcity.jpg">
+                    <h2>Introduction to HTML/CSS</h2>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Commodi asperiores, ex enim quia dolorem labore eligendi totam 
+                        quam excepturi placeat libero rerum maxime voluptatibus, sed eos 
+                        consequatur ut voluptate pariatur.</p>
+                    <br>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Commodi asperiores, ex enim quia dolorem labore eligendi totam 
+                        quam excepturi placeat libero rerum maxime voluptatibus, sed eos 
+                        consequatur ut voluptate pariatur.</p>
+                    <br>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Commodi asperiores, ex enim quia dolorem labore eligendi totam 
+                        quam excepturi placeat libero rerum maxime voluptatibus, sed eos 
+                        consequatur ut voluptate pariatur.</p>
+                    <div class="comment-box">
+                        <h3> Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="button-btn">Post comment</button>
+                        </form>
+                    </div>
+
+                 </div>
+
+                 <div class="blog-right">
+                     <h3>Post Categories</h3>
+                     <div>
+                         <span> UX/UI </span>
+                         <span>4</span>
+                     </div>
+
+                     <div>
+                        <span> Graphic </span>
+                        <span>7</span>
+                    </div>
+
+                    <div>
+                        <span> Tips </span>
+                        <span>8</span>
+                    </div>
+
+                    <div>
+                        <span> Research</span>
+                        <span>2</span>
+                    </div>
+
+                    <div>
+                        <span> Web Design</span>
+                        <span>3</span>
+                    </div>
+                 </div>
+             </div>
+         </section>
+
+
+ 
+
+    <!---call to action-->
+         <section class="cta">
+             <h2> Want to chat further about the studio <br>or the services we offer?</h2>
+             <a href="contact.html" class="hero-btn pink-btn"> contact us</a>
+         </section>
+
+
+    <!--toggle menu-->
+    <script>
+        var  navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>      
+    </body>
+
+    <!--footer-->
+    
+        
+    <footer>
+        <div class="container">
+          <div class="social-icons-container">
+            <a href=""><img src="img/facebook.svg" class="social-icon" alt="Facebook.icon"/></a>
+            <a href=""><img src="img/pinterest.svg" class="social-icon" alt="Pinterest.icon"/></a>
+            <a href="https://www.instagram.com/stewdiodesign_/"><img src="img/instagram.svg" class="social-icon" alt="Instagram.icon"/></a>
+            <p>designed with love by Minh Huyen <br> illustrated by Miri Park</p>
+          </div>
+        </div>
+      </footer>
+
+</html>

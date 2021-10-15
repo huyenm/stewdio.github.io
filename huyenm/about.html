@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=deivece-width, initial-scale=1.0"/>
+    <title>About</title>
+    <link rel="stylesheet" href="css/homepage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7b042f927.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="homepage.html"><img src="img/logo2 (2).png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="homepage.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="service.html">services</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1><b>About Stewdio</b></h1>
+         </section>  
+
+    <!--about us content-->
+         <section class="about-us">
+            <div class="row">
+              <div class="about-us-col">
+                <h2><b>Stewdio is a Brisbane-based full-service design studio</b> </h2>
+                <p>We specialize in creating end-to-end digital design solutions for a diverse range of commerical. 
+                  Our design service involves everything from the visual identity through to all printed and digital media. We take our clients on a 
+                  journey and give them enjoyable and meaningful experience. We ensure to captivate even the smallest detail of the brand and help our 
+                  clients to achieve their business’s goals through visual identity and unique experience.</p>
+                <a href="contact.html" class="hero-btn pink-btn">work with us</a>
+              </div>
+              <div class="about-us-col">
+                 <img src="img/smartcity.jpg">
+              </div>
+            </div>
+         </section>
+
+         <!--mission-->
+         <section class="mission">
+          <div class="row">
+            <div class="mission-col">
+              <img src="img/about.jpg">
+           </div>
+
+            <div class="mission-col">
+              <h2><b>Our mission</b> </h2>
+              <p>Stewdio drives creative work that connects our clients with their target customers and builds outstanding results in the market though design.
+                Our mission is to understand the client's businesses and their customers from multi-cultural perspective. Our unique process will provide continuing 
+                support and the evolving solution for the potential future scope of our clients' businesses.</p>
+              <a href="portfolio.html" class="hero-btn pink-btn">see our porfolio</a>
+            </div>
+          </div>
+
+       </section>
+
+       <!---value-->
+       
+       <section class="value">
+        <h2>Our Core Value</h2>
+       
+        <div class="row">
+            <div class="value-col">
+                <img src="img/logo1.png">
+                <h3> 01. Deliver enjoyable and meaningful experience</h3>
+    
+            </div>
+
+            <div class="value-col">
+               <img src="img/logo1.png">
+               <h3> 02. Keep up with the trend</h3>
+      
+           </div>
+
+           <div class="value-col">
+               <img src="img/logo1.png">
+               <h3> 03. Empathy is <br>the key</h3>
+           </div>
+
+           <div class="value-col">
+                <img src="img/logo1.png">
+                <h3> 04. Keep growing and inpire each other</h3>
+          </div>
+           <div class="value-col">
+                <img src="img/logo1.png">
+                <h3> 05. Have fun!</h3>
+            </div>
+
+
+        </div>
+        
+    </section>
+         
+         
+
+    <!---about-->
+         <section class="about"> 
+                    <h2> Who We Are</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid a in accusantium molestiae, omnis, sit, itaque expedita repellat labore illo est? Velit magnam 
+                        quisquam eum voluptatum reiciendis minus eos magni.
+                    </p>
+                </div>
+
+                <div class="about-col">
+                   <img src="img/Team.png">
+                   </p>
+               </div>
+
+         </section>
+
+    <!---call to action-->
+         <section class="cta">
+             <h2> Want to chat further about the studio <br>or the services we offer?</h2>
+             <a href="contact.html" class="hero-btn pink-btn"> contact us</a>
+         </section>
+
+
+    <!--toggle menu-->
+    <script>
+        var  navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>      
+    </body>
+
+    <!--footer-->
+    
+        
+    <footer>
+        <div class="container">
+          <div class="social-icons-container">
+            <a href=""><img src="img/facebook.svg" class="social-icon" alt="Facebook.icon"/></a>
+            <a href=""><img src="img/pinterest.svg" class="social-icon" alt="Pinterest.icon"/></a>
+            <a href="https://www.instagram.com/stewdiodesign_/"><img src="img/instagram.svg" class="social-icon" alt="Instagram.icon"/></a>
+            <p>designed with love by Minh Huyen</p>
+          </div>
+        </div>
+      </footer>
+
+</html>
