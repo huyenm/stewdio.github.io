@@ -15,12 +15,12 @@
 <body>
     <section class="header">
         <nav>
-            <a href="stewdio.github.io"><img src="img/logo2 (2).png"></a>
+            <a href="https://huyenm.github.io/stewdio.github.io/"><img src="img/logo2 (2).png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 </i>
                 <ul>
-                    <li><a href="stewdio.github.io">home</a></li>
+                    <li><a href="https://huyenm.github.io/stewdio.github.io/">home</a></li>
                     <li><a href="about.html">about</a></li>
                     <li><a href="service.html">services</a></li>
                     <li><a href="blog.html">blog</a></li>
