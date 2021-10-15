@@ -20,7 +20,7 @@
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 </i>
                 <ul>
-                    <li><a href="@/">home</a></li>
+                    <li><a href="#">home</a></li>
                     <li><a href="about.html">about</a></li>
                     <li><a href="service.html">services</a></li>
                     <li><a href="blog.html">blog</a></li>
